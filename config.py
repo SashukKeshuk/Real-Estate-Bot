@@ -1,0 +1,5 @@
+API = "5790298971:AAHd-gFdux0i4l65Tx9zesmZMYOtnBumq1o"
+host = "localhost"
+user = "admin"
+password = "gfa1z3zgfa2z4z"
+db_name = "bot1"

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>   
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+    
+    <span id="spn">
+        <div class="inner" id="inner">
+            <div class="top">
+                <div class="btn3 x1" id="btn3" onclick="ChangeTo2()">НОВОСТРОЙКИ</div>
+                <div class="btn4 x2" id="btn4" onclick="ChangeTo1()">ОТ СОБСТВЕННИКА</div>
+            </div>
+            <div class="title1">Город</div>
+            <div class="line1">
+                <div class="chx"><input id="el1" type="checkbox" class="chekbx">Ростов на Дону</div>
+            </div>
+            <div class="white"></div>
+            <div class="title2">Тип недвижимости</div>
+            <div class="line2">
+                <div class="chx"><input id="el5" type="checkbox" class="chekbx">Апартаменты</div>
+                <div class="chx"><input id="el6" type="checkbox" class="chekbx">Виллы</div>
+                <div class="chx"><input id="el2" type="checkbox" class="chekbx">Туанхаусы</div>
+            </div>
+            <div class="white"></div>
+            <div class="title3">Планировка</div>
+            <div class="line3">
+                <div class="chx"><input id="el7" type="checkbox" class="chekbx">Студия</div>
+                <div class="chx"><input id="el8" type="checkbox" class="chekbx">1-к</div>
+                <div class="chx"><input id="el9" type="checkbox" class="chekbx">2-к</div>
+                <div class="chx"><input id="el10" type="checkbox" class="chekbx">3-к</div>
+                <div class="chx"><input id="el11" type="checkbox" class="chekbx">4-к</div>
+                <div class="chx"><input id="el12" type="checkbox" class="chekbx">5-к</div>
+                <div class="chx"><input id="el13" type="checkbox" class="chekbx">6-к</div>
+                <div class="chx"><input id="el14" type="checkbox" class="chekbx">7-к</div>
+            </div>
+            <div class="white"></div>
+            <div class="title4">Цена</div>
+            <div class="sliderr"><input id="slider1" class="js-range-slider" type="text" value=""></div>
+            <div class="btn1" onclick="SendData()">ПОИСК<img src="icon-search.png"></div>
+            <div class="btn2" onclick="G()">ИЗБРАННОЕ<img src="icon-heart.png"></div>
+        </div>
+
+        <div class="inner2" id="inner2">
+            <div class="top">
+                <div class="btn3 x3" id="btn3" onclick="ChangeTo2()">НОВОСТРОЙКИ</div>
+                <div class="btn4 x4" id="btn4" onclick="ChangeTo1()">ОТ СОБСТВЕННИКА</div>
+            </div>
+            <div class="title1">Город</div>
+            <div class="line1">
+                <div class="chx"><input id="ell1" type="checkbox" class="chekbx">Ростов на Дону</div>
+            </div>
+            <div class="white"></div>
+            <div class="title2">Тип недвижимости</div>
+            <div class="line2">
+                <div class="chx"><input id="ell2" type="checkbox" class="chekbx">Апартаменты</div>
+                <div class="chx"><input id="ell3" type="checkbox" class="chekbx">Виллы</div>
+            </div>
+            <div class="white"></div>
+            <div class="title3">Планировка</div>
+            <div class="line3">
+                <div class="chx"><input id="ell4" type="checkbox" class="chekbx">1+1</div>
+                <div class="chx"><input id="ell5" type="checkbox" class="chekbx">2+1</div>
+                <div class="chx"><input id="ell6" type="checkbox" class="chekbx">3+1</div>
+            </div>
+            <div class="white"></div>
+            <div class="title4">Цена</div>
+            <div class="sliderr"><input id="slider2" class="js-range-slider" type="text" value=""></div>
+            <div class="btn1" onclick="SendData()">ПОИСК<img src="icon-search.png"></div>
+            <div class="btn2" onclick="G()">ИЗБРАННОЕ<img src="icon-heart.png"></div>
+        </div>
+    </span>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- <script src="https://telegram.org/js/telegram-web-app.js"></script> -->

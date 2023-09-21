@@ -1,0 +1,332 @@
+Updates were skipped successfully.
+Goodbye!
+bot online
+Updates were skipped successfully.
+Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-830' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 284, in interested
+    await bot.send_message(channel_id, f"{msg.from_user.first_name} {msg.from_user.last_name} (@{msg.from_user.username}) заинтересован во {lines[i]['id']}ом доме")
+IndexError: list index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-1727' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-1772' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5352' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5356' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5367' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5431' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5468' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5689' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 88, in get
+    HouseT[0] = 1
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5692' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5704' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 88, in get
+    HouseT[0] = 1
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-5841' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT[0] = 0
+IndexError: list assignment index out of range
+  File "bot.py", line 15
+SyntaxError: Non-ASCII character '\xd0' in file bot.py on line 15, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "bot.py", line 15
+SyntaxError: Non-ASCII character '\xd0' in file bot.py on line 15, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+Task exception was never retrieved
+future: <Task finished name='Task-6164' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT = []
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-6173' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT = []
+IndexError: list assignment index out of range
+Task exception was never retrieved
+future: <Task finished name='Task-6176' coro=<Dispatcher._process_polling_updates() done, defined at /opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list assignment index out of range')>
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 84, in get
+    HouseT = []
+IndexError: list assignment index out of range
+Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/opt/SashukKeshuk.github.io/venv/lib/python3.8/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [Errno 104] Connection reset by peer
+  File "bot.py", line 59
+    async def on_startup(_):
+            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "bot.py", line 3, in <module>
+    from aiogram import Bot, types
+ModuleNotFoundError: No module named 'aiogram'
+Traceback (most recent call last):
+  File "bot.py", line 3, in <module>
+    from aiogram import Bot, types
+ModuleNotFoundError: No module named 'aiogram'
+  File "bot.py", line 59
+    async def on_startup(_):
+            ^
+SyntaxError: invalid syntax
