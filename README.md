@@ -1,3 +1,3 @@
-# EstateBot
+# Estate Bot
 
-это телеграм бот с веб интерфейсом и системой учета клиентов, созданный для продажи недвижимости. Администраторы загружают через веб интерфейс статьи с доступными объектами недвижимости, а потенциальные покупатели могут их просматривать в виде прокручиваемой ленты в чат боте.
+This is a Telegram bot with a web interface and a client management system, created for real estate sales. Administrators upload articles with available real estate listings through the web interface, and potential buyers can view them as a scrollable feed in the chat bot.
